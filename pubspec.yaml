@@ -21,8 +21,10 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  fl_chart: ^0.36.1
   flutter:
     sdk: flutter
+  flutter_screenutil: ^5.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -43,7 +45,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+   - images/1.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
